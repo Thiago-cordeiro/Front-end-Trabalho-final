@@ -206,8 +206,8 @@ hr{
 }
 
 .deletar-materia:hover {
-    background-color: #ff0000; /* Cor mais forte no hover */
-    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
+    background-color: #ff0000;
+    transform: scale(1.1); 
 }
 
 .deletar-materia:focus {
@@ -269,7 +269,7 @@ background-position: center;
 
 .sobre ul li:before {
     content: "•"; 
-    color: #67baf1; /* Cor para os pontos de lista */
+    color: #67baf1; 
     position: absolute;
     left: 0;
     font-size: 1.5em;
@@ -277,12 +277,12 @@ background-position: center;
 }
 
 .sobre strong {
-    color:  #67baf1; /* Destaque para termos importantes */
+    color:  #67baf1;
 }
 
 .sobre em {
     font-style: italic;
-    color: #e74c3c; /* Cor para termos em itálico */
+    color: #e74c3c; 
 }
 
 
