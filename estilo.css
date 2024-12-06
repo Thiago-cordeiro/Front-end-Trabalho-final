@@ -89,6 +89,7 @@ h1{
     overflow: hidden;
     border-radius: 16px;
     color: #010101;
+   
   }
   
   .form {
@@ -157,7 +158,7 @@ h1{
 
     background: 
     radial-gradient(circle, rgba(0, 0, 0, 0.192) 70%, rgb(0, 0, 0) 100%),
-    url(IMG/ai-generated-8481630_1280.jpg) no-repeat;
+    url(IMG/abstract-2501117.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -206,8 +207,8 @@ hr{
 }
 
 .deletar-materia:hover {
-    background-color: #ff0000;
-    transform: scale(1.1); 
+    background-color: #ff0000; /* Cor mais forte no hover */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
 }
 
 .deletar-materia:focus {
@@ -222,8 +223,8 @@ hr{
     display: flex;
     align-items: center;
     background: 
-    radial-gradient(circle, rgba(0, 0, 0, 0.288) 70%, rgb(0, 0, 0) 100%),
-    url(IMG/ai-generated-8481630_1280.jpg) no-repeat;
+    radial-gradient(circle, rgba(0, 0, 0, 0.418) 70%, rgb(0, 0, 0) 100%),
+    url(IMG/abstract-2501117.jpg) no-repeat;
 background-size: cover;
 background-position: center;
     
@@ -269,7 +270,7 @@ background-position: center;
 
 .sobre ul li:before {
     content: "•"; 
-    color: #67baf1; 
+    color: #67baf1; /* Cor para os pontos de lista */
     position: absolute;
     left: 0;
     font-size: 1.5em;
@@ -277,12 +278,12 @@ background-position: center;
 }
 
 .sobre strong {
-    color:  #67baf1;
+    color:  #67baf1; /* Destaque para termos importantes */
 }
 
 .sobre em {
     font-style: italic;
-    color: #e74c3c; 
+    color: #e74c3c; /* Cor para termos em itálico */
 }
 
 
@@ -342,7 +343,9 @@ footer{
     }
     .entradas {
         margin-top: 100px;
+        height: 100dvh;
         flex-direction: column;
+        
     }
     .secaoFaltas{
         margin-top: 100px;
@@ -384,7 +387,7 @@ footer{
         margin-top: 30px;
     }
     #img1{
-        width: 50%;
+        width: 80%;
     }
     .sobre{
         margin-top: 0px;
